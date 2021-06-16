@@ -1,0 +1,64 @@
+name: hungerz
+description: A new Flutter application.
+
+publish_to: 'none'
+version: 1.0.6+7
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get: ^4.1.4
+  cupertino_icons: ^1.0.3
+  flutter_phoenix: ^1.0.0
+  country_code_picker: ^2.0.1
+
+  google_fonts: ^2.1.0
+  flutter_bloc: ^7.0.0
+  flutter_rating_bar: ^4.0.0
+
+
+  cloud_firestore:
+  firebase_auth:
+  firebase_core:
+
+  
+  animation_wrappers: ^0.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "images/icon.png"
+
+flutter_launcher_name:
+  name: "Hungerz"
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Regular.ttf
+        - asset: fonts/ProductSans-Bold.ttf
+  assets:
+    - images/
+    - images/footermenu/
+    - images/account/
+    - images/address/
+    - images/icons/
+    - images/payment/
+    - images/Restaurants/
+    - images/Banners/
+    - images/Categories/
+    - images/Food images/
+
